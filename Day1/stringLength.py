@@ -1,7 +1,16 @@
-a = input("enter value for a: ")
-b= input("enter value for b: ")
-c=a
-a=b
-b=c
-print("a: "+ a)
-print("b: "+ b)
+def listSum(arr):
+    #code here
+
+    length  = len(arr)
+   
+    
+    for i in range (0, length):
+        
+        print(arr[i]-1, end = " ")
+        
+        
+    
+    
+arr = [54, 43, 2, 1, 5]
+print(listSum(arr))
+    
